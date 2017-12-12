@@ -1,0 +1,179 @@
+
+
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0; 
+}
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	background: linear-gradient(to bottom left, #dd2476, #ff512f);
+	font-family: arial, sans-serif;
+	font-weight: 500;
+	letter-spacing: 0.2px;
+	line-height: 1.5;
+	color: #909090;
+}
+
+.wrap {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	min-height: 471px;
+	height: auto;
+	width: 460px;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	border-radius: 4px;
+	padding: 30px;
+	vertical-align: middle;
+}
+
+.header {
+	font-size: 0;
+}
+
+
+
+
+.header__title {
+	padding: 0;
+	font-size: 24px;
+	
+	display: inline-block;
+	margin: 0;
+	font-weight: 700;
+	color: #222;
+	vertical-align: middle;
+
+}
+
+.header__title::before {
+	content: url(../img/key.png);
+	padding-right: 10px;
+
+}
+
+
+
+.header__subtitle {
+	margin-top: 10px;
+	font-size: 13px;
+	
+}
+
+.link {
+	text-decoration: none;
+	color: #df2671;
+	transition: .25s;
+
+}
+
+.link:hover {
+	color: #ff512f;
+	cursor: pointer;
+}
+
+.form {
+	margin-top: 30px;
+}
+
+.form__group {
+	padding: 0;
+	border: none;  
+
+	
+}
+
+.row {
+	font-size: 0;
+}
+
+
+.form__field {
+	
+	height: 40px;
+	border: 0;  
+	background-color: #f0f0f0;
+	
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding: 15px 12px;
+	color: #909090;
+	border-radius: 4px;
+	transition: 0.25s;
+
+}
+
+.form__field:active, .form__field:hover, .form__field:focus {
+	outline: 0;
+
+	color: #df2671;
+	
+   
+}
+
+.form__field:placeholder {
+	color: #909090;
+}
+
+.form__field:hover::placeholder, .form__field:focus::placeholder {
+	color: #df2671;
+}
+
+
+.form__field--name {
+	
+	width: 192px;
+	display: inline-block;
+}
+
+ .form__field--name:first-of-type {
+margin-right: calc(460px - 30px - 30px - 192px - 192px - 1px); 
+}
+
+.form__field--address {
+	width: 100%;
+
+}
+
+
+.form__submit {
+	width: 100%;
+	height: 50px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 18px;
+	background-color: #ea355a;
+	border: 0;
+	border-bottom: 3px solid #bd1962;
+	border-radius: 4px;
+	transition: 0.25s;
+	margin-bottom: 20px;
+}
+
+.form__submit:hover, .form__submit:active, .form__submit:focus {
+	background-color:#df2671;
+	cursor: pointer;
+	outline: none;
+
+}
+
+.form__subtitle {
+	margin: 0;
+	font-size: 13px;
+
+}
+
+
+
+
+
+
+
+
